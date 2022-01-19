@@ -1,0 +1,189 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #92A9BD;
+}
+
+.menu{
+    float: right;
+
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+    border-bottom: 1px solid #92A9BD;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #92A9BD;
+}
+
+.h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color:#92A9BD ;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru{
+    background: #7C99AC;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: #FF5959;
+    text-decoration: none;
+
+}
+
+a.tbl-pink{
+    background: #FF5959 ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{
+    background: #7C99AC;
+    text-decoration: none;
+}
+
+p{
+    margin: 0px 10px 0px 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah{
+    
+    padding-left: 10px;
+}
+
+.kan{
+    background: #FFF8F3;
+}
+
+.kantin{
+    margin-left: 8%;
+    font-size: 18px;
+    margin-right: 8%;
+}
+
+.contact{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 35px;
+    padding-left:40%;
+  }
+  
+  
+  .content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    padding: 0 12%;
+    color:black;
+  }
+  
+  .card {
+  
+    transition: 0.3s;
+    width: 280px;
+    min-height: 350px;
+    padding: 20px;
+    margin: 81px 0;
+    text-align: center;
+  }
+  
+  .card:hover {
+    background-color: #325288;
+  }
+  
+  
+  .va {
+    padding-top: 45px;
+  }
+
+@media screen and (max-widht:768px) {
+}
